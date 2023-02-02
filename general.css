@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("imagenes-recetas/fondo.jpg");
+    background-size: 100vw;
+    background-attachment: fixed;
+    background-position-y: 100px;
+}
+
+header {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color:rgba(151, 192, 194, 1);
+    border-bottom: 2px solid;
+    position: absolute;
+}
+
+.header-logo {
+    margin-left: 70px;
+}
+
+.header-logo a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 110px;
+    display: flex;
+}
+
+.enlace-pag {
+    margin: auto;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.enlace-pag a {
+    text-decoration: none;
+    color:black;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 15px;
+}
+
+footer {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 180px;
+}
+
+.footer-logo{
+    margin-left: 50px;
+
+}
+
+.logo-footer{
+    width: 70px;
+    display: flex;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.footer-logo a {
+    text-decoration: none;
+}
+
+.link-a-facebook {
+    margin-left: 50px;
+}
+
+.icono-redes-sociales-div{
+    display: flex;
+    margin-right: 40px;
+}
+
+.icono-redes-sociales{
+    width: 60px;
+}
+
+@media (max-width: 1200px) {
+    header {
+        height: 110px;
+    }
+    .logo {
+        width: 80px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .enlace-pag {
+        font-size: 17px;
+    }
+    .icono-redes-sociales{
+        width: 50px;
+    }
+    .logo-footer {
+        width: 60px;
+    }
+}
+
+@media (max-width: 800px) {
+    header {
+        height: 90px;
+    }
+    .logo {
+        width: 70px;
+    }
+    h3 {
+        font-size: 12px;
+    }
+
+    .enlace-pag {
+        font-size: 12px;
+    }
+    .icono-redes-sociales{
+        width: 45px;
+    }
+    .logo-footer {
+        width: 50px;
+    }
+}

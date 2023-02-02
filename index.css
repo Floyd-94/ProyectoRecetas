@@ -1,0 +1,68 @@
+main {
+    width: 1000px;
+    margin: auto;
+    margin-top: 190px;
+}
+
+.cupcakes {
+    margin-bottom: 50px;
+}
+
+.main-style {
+    border-radius: 25px;
+    border: 3px solid rgba(151, 192, 194, 1);
+}
+
+.section-main {
+    background-color: rgba(255, 255, 255, 0.85);
+    background-blend-mode: darken;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color:  rgb(143, 184, 186);
+}
+
+.brownie {
+    width: 300px;
+    height: 400px;
+    margin-right: 20px;
+    float: left;
+}
+
+.parrafo-main {
+    font-size: medium;
+    font-family: cursive;
+    color:  rgb(143, 184, 186);
+    margin-top: 20px;
+}
+
+@media (max-width: 1200px) {
+    main {
+        width: 800px;
+        margin: auto;
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 800px) {
+    main {
+        width: 500px;
+        margin: auto;
+        margin-top: 150px;
+    }
+    .section-main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .brownie {
+        margin: auto;
+        margin-top: 15px;
+    }
+}
+ 
+
