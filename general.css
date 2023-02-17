@@ -8,6 +8,7 @@ body {
     background-size: 100vw;
     background-attachment: fixed;
     background-position-y: 100px;
+    font-family: sans-serif;
 }
 
 header {
