@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site": "postrecitos-dca0e",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
+
+
