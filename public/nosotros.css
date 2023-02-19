@@ -1,9 +1,9 @@
 main {
     width: 1000px;
     margin: 0 auto;
-    margin-top: 170px;
+    margin-top: 220px;
     border-radius: 25px;
-    border: 3px solid   rgba(151, 192, 194, 1);
+    border: 3px solid rgba(151, 192, 194, 1);
     background-color: rgba(255, 255, 255, 0.9);
     background-blend-mode: darken;
 }
@@ -18,8 +18,7 @@ h2 {
     padding: 20px;
     margin-bottom: 10px;
     font-family: cursive;
-    font-size: 30px;
-    color:rgba(151, 192, 194, 1);
+    color: rgba(151, 192, 194, 1);
 }
 
 .imagen-nosotros {
@@ -32,19 +31,23 @@ h2 {
 
 p {
     margin: 20px;
-    font-size: 17px;
-    font-family: cursive;
+    font-size: 24px;
     color: rgba(151, 192, 194, 1);
 }
 
 @media (max-width: 1200px) {
     main {
         width: 800px;
-        margin:  auto;
+        margin: auto;
         margin-top: 150px;
     }
-    .imagen-nosotros{
+
+    .imagen-nosotros {
         width: 700px;
+    }
+
+    p {
+        font-size: 22px;
     }
 }
 
@@ -52,9 +55,30 @@ p {
     main {
         width: 600px;
         margin: auto;
+        margin-top: 160px;
+    }
+
+    .imagen-nosotros {
+        width: 500px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    main {
+        width: 300px;
+        margin:  auto;
         margin-top: 120px;
     }
     .imagen-nosotros{
-        width: 500px;
+        width: 250px;
+    }
+
+    p{
+        font-size: 18px;
+        margin: 10px;
     }
 }

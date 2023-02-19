@@ -4,6 +4,7 @@
 }
 
 body {
+    width: 100%;
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("imagenes-recetas/fondo.jpg");
     background-size: 100vw;
     background-attachment: fixed;
@@ -16,7 +17,7 @@ header {
     width: 100%;
     display: flex;
     align-items: center;
-    background-color:rgba(151, 192, 194, 1);
+    background-color: rgba(151, 192, 194, 1);
     border-bottom: 2px solid;
     position: absolute;
 }
@@ -40,21 +41,29 @@ header {
     display: flex;
     flex-direction: row-reverse;
     font-family: cursive;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .enlace-pag a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
-nav ul{
+nav ul {
     display: flex;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
     margin-left: 15px;
+}
+
+h2 {
+    font-size: 30px
+}
+
+p {
+    text-align: justify;
 }
 
 footer {
@@ -66,12 +75,11 @@ footer {
     margin-top: 180px;
 }
 
-.footer-logo{
+.footer-logo {
     margin-left: 50px;
-
 }
 
-.logo-footer{
+.logo-footer {
     width: 70px;
     display: flex;
     background-color: white;
@@ -86,12 +94,12 @@ footer {
     margin-left: 50px;
 }
 
-.icono-redes-sociales-div{
+.icono-redes-sociales-div {
     display: flex;
     margin-right: 40px;
 }
 
-.icono-redes-sociales{
+.icono-redes-sociales {
     width: 60px;
 }
 
@@ -99,18 +107,23 @@ footer {
     header {
         height: 110px;
     }
+
     .logo {
         width: 80px;
     }
-    h3 {
-        font-size: 15px;
+
+    h2 {
+        font-size: 25px;
     }
+
     .enlace-pag {
-        font-size: 17px;
+        font-size: 18px;
     }
-    .icono-redes-sociales{
+
+    .icono-redes-sociales {
         width: 50px;
     }
+
     .logo-footer {
         width: 60px;
     }
@@ -118,22 +131,65 @@ footer {
 
 @media (max-width: 800px) {
     header {
-        height: 90px;
+        height: 100px;
     }
+
     .logo {
         width: 70px;
     }
+
     h3 {
-        font-size: 12px;
+        font-size: 20px;
+    }
+
+    .enlace-pag {
+        font-size: 16px;
+    }
+
+    .icono-redes-sociales {
+        width: 45px;
+    }
+
+    .logo-footer {
+        width: 60px;
+    }
+}
+
+@media (max-width: 400px) {
+    header {
+        height: 80px;
+    }
+
+    .header-logo {
+        margin-left: 10px;
+    }
+
+    .logo {
+        width: 50px;
+    }
+
+    h2 {
+        font-size: 15px;
     }
 
     .enlace-pag {
         font-size: 12px;
     }
-    .icono-redes-sociales{
+
+    .icono-redes-sociales {
         width: 45px;
     }
+
+    footer {
+        display: flex;
+        justify-content: space-between
+    }
+
     .logo-footer {
         width: 50px;
+    }
+
+    .footer-logo {
+        margin-left: 20px;
     }
 }

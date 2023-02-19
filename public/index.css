@@ -23,7 +23,6 @@ h2 {
     margin-bottom: 25px;
     display: flex;
     justify-content: center;
-    font-size: 25px;
     color:  rgb(143, 184, 186);
 }
 
@@ -65,4 +64,20 @@ h2 {
     }
 }
  
+@media (max-width: 400px) {
+    main {
+        width: 300px;
+        margin: auto;
+        margin-top: 120px;
+    }
+    .section-main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .brownie {
+        width: auto;
+        margin: 0 ;
+        margin-top: 15px;
+    }
+}
 
